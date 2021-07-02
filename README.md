@@ -1,29 +1,12 @@
-# challenge-home
+# VNL Home Vue Challenge
 
-## Project setup
-```
-npm install
-```
+## ENV
+- env file used to set API endpoint
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Unit Tests
+- written to test component functions correctness
+- data is stubbed using 'jest-fetch-mock'
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## E2E tests
+- for UI functionality and correctness
+- data is stubbed using Cypress 'intercept' function
